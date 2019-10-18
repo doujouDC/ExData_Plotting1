@@ -10,7 +10,7 @@ plot1 <- ggplot(data = household_power_consumption, mapping = aes(x = Global_act
   geom_histogram(col = "black", fill = "red") +
   labs(title = "Global Active Power",
        x = "Global Active Power (kilowatts)",
-       x = "Frequency"
+       y = "Frequency"
        ) +
   theme(plot.title = element_text(hjust = 0.5)) +
   theme_classic()
